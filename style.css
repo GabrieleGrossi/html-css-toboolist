@@ -10,10 +10,11 @@ body{
 header{
     background-color: white;
     vertical-align: middle;
-    
 }
 img{
     vertical-align: middle;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 h1{
     display: inline-block;
@@ -25,7 +26,7 @@ h2{
 main{
     background-color: white;
     margin: 2rem 10rem .5rem 10rem;
-    padding: 2.5rem;
+    padding: 1.5rem 0 0 4rem;
     border-radius: 5px;
 }
 .Editorial {
@@ -38,6 +39,7 @@ main{
     height: 25px;
     text-align: center;
     vertical-align: middle;
+    padding-top: 0.2rem;
 }
 .q1{
     
@@ -50,6 +52,7 @@ main{
     height: 25px;
     text-align: center;
     vertical-align: middle;
+    padding-top: 0.2rem;
 }
 .recruit{
     
@@ -62,6 +65,7 @@ main{
     height: 25px;
     text-align: center;
     vertical-align: middle;
+    padding-top: 0.2rem;
 }
 .mobile{
     
@@ -74,6 +78,7 @@ main{
     height: 25px;
     text-align: center;
     vertical-align: middle;
+    padding-top: 0.2rem;
 }
 .website{
     
@@ -86,6 +91,7 @@ main{
     height: 25px;
     text-align: center;
     vertical-align: middle;
+    padding-top: 0.2rem;
 }
 .sales{
     
@@ -98,18 +104,23 @@ main{
     height: 25px;
     text-align: center;
     vertical-align: middle;
+    padding-top: 0.2rem;
 }
 ul{
     list-style-type: none;
-    margin: 0.3rem;
+    margin-top: 0.5rem;
     padding: 1rem;
 }
 li{
     margin: 0.2rem;
-    padding: 0.2rem;
+    padding: 0.5rem;
 }
 .bottoni{
-    border-bottom: solid;
-    margin-top: 0.2rem;
-
+    color: white;
+    padding-bottom: 0.5rem;
+}
+#id{
+    background-color: rgb(126, 126, 220);
+    color: white;
+    border-radius: 5px;
 }
