@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(223, 211, 211);
+    background-color: rgb(240, 239, 239);
     font-family: verdana;
 }
 header{
     background-color: white;
     vertical-align: middle;
+    
 }
 img{
     vertical-align: middle;
@@ -18,10 +19,14 @@ h1{
     display: inline-block;
     vertical-align: middle;
 }
+h2{
+    margin-top: 1rem;
+}
 main{
     background-color: white;
     margin: 2rem 10rem .5rem 10rem;
-    padding: 5rem;
+    padding: 2.5rem;
+    border-radius: 5px;
 }
 .Editorial {
     display: inline-block;
@@ -37,7 +42,7 @@ main{
 .q1{
     
     display: inline-block;
-    background-color: rgb(224, 153, 230);
+    background-color: rgb(202, 64, 215);
     font-size: small;
     border-radius: 15px;
     color: white;
@@ -45,5 +50,66 @@ main{
     height: 25px;
     text-align: center;
     vertical-align: middle;
+}
+.recruit{
+    
+    display: inline-block;
+    background-color: rgb(165, 237, 208);
+    font-size: small;
+    border-radius: 15px;
+    color: white;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+.mobile{
+    
+    display: inline-block;
+    background-color: rgb(238, 200, 113);
+    font-size: small;
+    border-radius: 15px;
+    color: white;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+.website{
+    
+    display: inline-block;
+    background-color: rgb(224, 134, 236);
+    font-size: small;
+    border-radius: 15px;
+    color: white;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+.sales{
+    
+    display: inline-block;
+    background-color: rgb(69, 224, 79);
+    font-size: small;
+    border-radius: 15px;
+    color: white;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+ul{
+    list-style-type: none;
+    margin: 0.3rem;
+    padding: 1rem;
+}
+li{
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+.bottoni{
+    border-bottom: solid;
+    margin-top: 0.2rem;
 
 }
