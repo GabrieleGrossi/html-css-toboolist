@@ -31,11 +31,11 @@ main{
 }
 .Editorial {
     display: inline-block;
-    background-color: lightblue;
+    background-color: #3299bb;
     font-size: small;
     border-radius: 15px;
     color: white;
-    width: 100px;
+    width: 80px;
     height: 25px;
     text-align: center;
     vertical-align: middle;
@@ -48,7 +48,7 @@ main{
     font-size: small;
     border-radius: 15px;
     color: white;
-    width: 100px;
+    width: 90px;
     height: 25px;
     text-align: center;
     vertical-align: middle;
@@ -74,7 +74,7 @@ main{
     font-size: small;
     border-radius: 15px;
     color: white;
-    width: 100px;
+    width: 75px;
     height: 25px;
     text-align: center;
     vertical-align: middle;
@@ -87,7 +87,7 @@ main{
     font-size: small;
     border-radius: 15px;
     color: white;
-    width: 100px;
+    width: 75px;
     height: 25px;
     text-align: center;
     vertical-align: middle;
@@ -100,7 +100,7 @@ main{
     font-size: small;
     border-radius: 15px;
     color: white;
-    width: 100px;
+    width: 60px;
     height: 25px;
     text-align: center;
     vertical-align: middle;
@@ -117,15 +117,16 @@ li{
 }
 .bottoni{
     color: white;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 button{
-    background-color: #008CBA;
+    background-color: #3299bb;
     color: white;
     border-radius: 5px;
-    border: none;
-    padding: 0.2rem;
+    padding: 0.6rem;
+    border-color: grey;
 }
 .bottonebianco{
-    background-color: lightgrey;
+    background-color: white;
+    color: lightgrey;
 }
