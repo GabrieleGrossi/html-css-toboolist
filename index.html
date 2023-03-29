@@ -1,75 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <!-- logo e testo-->
-        <img src="foto/Logo.png" alt="Logo boolean">
-        <h1>Toboolist</h1>
-    </header>
-    <main>
-        <p class="bottoni">
-            <button>Add Task</button>
-            <button class="bottonebianco">Add Section</button>
-        </p>
-        <hr>
-        <p>
-            <h2>
-                &#9660 New Task
-            </h2>
-        </p>
-            <ul>
-                <li>
-                    &#128504; Quarterly Newsletter
-                    <div class="Editorial">Editorial</div>
-                </li>
-            </ul>
-        <p>
-            <h2>
-                &#9660 Today
-            </h2>
-        </p>
-        <ul>
-                <li>
-                    &#128504; Recruiting blog post <div class="Editorial">Editorial</div>
-                </li>
-                <li>
-                    &#128504; Mobile app launch <div class="q1">Q1 Goals</div>
-                </li>
-                <li>
-                    &#10007; Interview Jhon H. <div class="recruit">Recruiting</div>
-                </li>
-                <li>
-                    &#128504; Summit update mobile <div class="mobile">Mobile</div>
-                </li>
-        </ul>
-        <p>
-                <h2>
-                    &#9660 Upcoming
-                </h2>
-        </p>
-        <ul>
-            <li>
-                &#10007; Schedule meeting whit Alex
-            </li>
-            <li>
-                &#128504; Homepage refresh <div class="website">Website</div>
-            </li>
-            <li>
-                &#128504; Onboard new sales team members <div class="sales">Sales</div>
-            </li>
-            <li>
-                &#128504; Review editorial calendar <div class="Editorial">Editorial</div>
-            </li>
-        </ul>
-    </main>
-    <footer>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toboolist</title>
+
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+
+        <header>
+            <img src="img/Logo.png" alt="Boolean logo" class="main-logo">
+            <h1>
+                Toboolist
+            </h1>
+        </header>
+
+        <main>
+            <section id="taskbar">
+                <button class="btn btn-blue">
+                    Add Task
+                </button>
+                <button class="btn btn-white">
+                    Add Section
+                </button>
+            </section>
+
+            <section id="todolist">
+                <ul class="tasklist">
+                    <li>
+                        <h2 class="task-title">
+                            <span class="arrow-down">&#9662;</span>
+                            New Task
+                        </h2>
+                        <ul class="tasks">
+                            <li class="task">
+                                <span class="circle circle-green">
+                                    &check;
+                                </span>
+                                Quarterly Newsletter
+                                <span class="tag tag-blue">
+                                    Editorial
+                                </span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li >
+                        <h2 class="task-title">
+                            <span class="arrow-down">&#9662;</span>
+                            Today
+                        </h2>
+                        <ul class="tasks">
+                            <li class="task">
+                                <span class="circle circle-green">
+                                    &check;
+                                </span>
+                                Recruiting blog post
+                                <span class="tag tag-blue">
+                                    Editorial
+                                </span>
+                            </li>
+                            <li class="task">
+                                <span class="circle circle-green">
+                                    &check;
+                                </span>
+                                Mobile app launch
+                                <span class="tag tag-violet">
+                                    Q1 Goals
+                                </span>
+                            </li>
+                            <li class="task">
+                                <span class="circle circle-red">
+                                    &cross;
+                                </span>
+                                Interview John H.
+                                <span class="tag tag-green">
+                                    Recruiting
+                                </span>
+                            </li>
+                            <li class="task">
+                                <span class="circle circle-green">
+                                    &check;
+                                </span>
+                                Summit update to mobile storefronts
+                                <span class="tag tag-orange">
+                                    Mobile
+                                </span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li >
+                        <h2 class="task-title">
+                            <span class="arrow-down">&#9662;</span>
+                            Upcoming
+                        </h2>
+                        <ul class="tasks">
+                            <li class="task">
+                                <span class="circle circle-red">
+                                    &cross;
+                                </span>
+                                Schedule meeting with Alex
+                            </li>
+                            <li class="task">
+                                <span class="circle circle-green">
+                                    &check;
+                                </span>
+                                Homepage refresh
+                                <span class="tag tag-pink">
+                                    Website
+                                </span>
+                            </li>
+                            <li class="task">
+                                <span class="circle circle-green">
+                                    &check;
+                                </span>
+                                Onboard new Sales team members
+                                <span class="tag tag-light-green">
+                                    Sales
+                                </span>
+                            </li>
+                            <li class="task">
+                                <span class="circle circle-green">
+                                    &check;
+                                </span>
+                                Review editorial calendar
+                                <span class="tag tag-blue">
+                                    Editorial
+                                </span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+    </body>
 </html>

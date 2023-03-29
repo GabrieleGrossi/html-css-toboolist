@@ -3,130 +3,138 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    background-color: rgb(240, 239, 239);
-    font-family: verdana;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7f8;
 }
+
 header{
+    height: 110px;
     background-color: white;
-    vertical-align: middle;
+    font-size: 2rem;
+    padding: 1.2rem 2rem;
+    margin-bottom: 3rem;
 }
-img{
-    vertical-align: middle;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
+
 h1{
     display: inline-block;
     vertical-align: middle;
 }
-h2{
-    margin-top: 1rem;
-}
+
 main{
+    width: 65%;
+    margin: 0 auto;
+    background-color: magenta;
+}
+
+section{
     background-color: white;
-    margin: 2rem 10rem .5rem 10rem;
-    padding: 1.5rem 0 0 4rem;
-    border-radius: 5px;
+    padding-left: 4rem;
 }
-.Editorial {
-    display: inline-block;
-    background-color: #3299bb;
-    font-size: small;
-    border-radius: 15px;
-    color: white;
-    width: 80px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 0.2rem;
-}
-.q1{
-    
-    display: inline-block;
-    background-color: rgb(202, 64, 215);
-    font-size: small;
-    border-radius: 15px;
-    color: white;
-    width: 90px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 0.2rem;
-}
-.recruit{
-    
-    display: inline-block;
-    background-color: rgb(165, 237, 208);
-    font-size: small;
-    border-radius: 15px;
-    color: white;
-    width: 100px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 0.2rem;
-}
-.mobile{
-    
-    display: inline-block;
-    background-color: rgb(238, 200, 113);
-    font-size: small;
-    border-radius: 15px;
-    color: white;
-    width: 75px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 0.2rem;
-}
-.website{
-    
-    display: inline-block;
-    background-color: rgb(224, 134, 236);
-    font-size: small;
-    border-radius: 15px;
-    color: white;
-    width: 75px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 0.2rem;
-}
-.sales{
-    
-    display: inline-block;
-    background-color: rgb(69, 224, 79);
-    font-size: small;
-    border-radius: 15px;
-    color: white;
-    width: 60px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 0.2rem;
-}
+
 ul{
     list-style-type: none;
-    margin-top: 0.5rem;
-    padding: 1rem;
 }
-li{
-    margin: 0.2rem;
-    padding: 0.5rem;
+
+.main-logo{
+    height: 100%;
+    vertical-align: middle;
 }
-.bottoni{
+
+.btn{
+    border: none;
+    padding: .4rem .85rem;
+    border-radius: 6px;
+    font-size: .75rem;
+    margin-right: .25rem;
+    margin-bottom: .5rem;
+}
+
+.btn-blue{
     color: white;
-    padding-bottom: 1rem;
+    background-color: #47acf0;
+    border: #47acf0 solid 1px;
 }
-button{
-    background-color: #3299bb;
-    color: white;
-    border-radius: 5px;
-    padding: 0.6rem;
-    border-color: grey;
-}
-.bottonebianco{
+
+.btn-white{
+    color: grey;
     background-color: white;
-    color: lightgrey;
+    border: 1px rgb(98, 98, 98) solid;
+}
+
+.task-title{
+    padding-top: 2.5rem;
+}
+
+.task{
+    padding-top: 1rem;
+    padding-left: .33rem;
+}
+
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-right: .5rem;
+}
+
+.circle-green{
+    color:rgb(30, 213, 30);
+    border: 1px solid rgb(30, 213, 30);
+}
+
+.circle-red{
+    color:red;
+    border: 1px solid red;
+}
+
+.tag{
+    padding: .5rem 1rem;
+    color: white;
+    font-size: .8rem;
+    border-radius: 12px;
+}
+
+.tag-blue{
+    background-color: #47acf0;
+}
+
+.tag-violet{
+    background-color: violet;
+}
+
+.tag-green{
+    background-color: rgb(57, 216, 142);
+}
+
+.tag-orange{
+    background-color: orange;
+}
+
+.tag-pink{
+    background-color: violet;
+}
+
+.tag-light-green{
+    background-color: rgb(166, 192, 34);
+}
+
+.arrow-down{
+    font-size: 2.55rem;
+    vertical-align: middle;
+}
+
+
+#taskbar{
+    padding-top: 1rem;
+    border-bottom:  #f5f7f8      solid 2px;
+}
+
+#todolist{
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
 }
